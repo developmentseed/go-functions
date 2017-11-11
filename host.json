@@ -1,0 +1,8 @@
+{
+  "applicationInsights": {
+    "sampling": {
+      "isEnabled": true
+    }
+  },
+  "functionTimeout": "00:01:00"
+}
