@@ -1,0 +1,9 @@
+{
+  "disabled": false,
+  "bindings": [{
+    "schedule": "0 */1 * * * *",
+    "type": "timerTrigger",
+    "direction": "in",
+    "name": "timerHelloWorld"
+  }]
+}
