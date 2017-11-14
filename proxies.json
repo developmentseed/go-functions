@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "goindex": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/site"
+      },
+      "backendUri": "https://ifrcgofrontend.blob.core.windows.net/site/index.html"
+    },
+    "gocatchall": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/site/{*restOfPath}"
+      },
+      "backendUri": "https://ifrcgofrontend.blob.core.windows.net/site/{restOfPath}"
+    }
+  }
+}
