@@ -8,7 +8,7 @@
                     "GET"
                 ]
             },
-            "backendUri": "https://ifrcgofrontend.blob.core.windows.net/site/index.html"
+            "backendUri": "https://dsgofilestorage.blob.core.windows.net/site/index.html"
         },
         "gopages": {
             "matchCondition": {
@@ -17,7 +17,7 @@
                     "GET"
                 ]
             },
-            "backendUri": "https://ifrcgofrontend.blob.core.windows.net/site/index.html"
+            "backendUri": "https://dsgofilestorage.blob.core.windows.net/site/index.html"
         },
         "gocatchall": {
             "matchCondition": {
@@ -26,7 +26,7 @@
                 ],
                 "route": "/assets/{*restOfPath}"
             },
-            "backendUri": "https://ifrcgofrontend.blob.core.windows.net/site/assets/{restOfPath}"
+            "backendUri": "https://dsgofilestorage.blob.core.windows.net/site/assets/{restOfPath}"
         }
     }
 }
