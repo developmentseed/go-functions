@@ -19,6 +19,15 @@
             },
             "backendUri": "https://dsgofilestorage.blob.core.windows.net/site/index.html"
         },
+        "goemergencies": {
+            "matchCondition": {
+                "route": "/emergencies/{*restOfPath}",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "backendUri": "https://dsgofilestorage.blob.core.windows.net/site/index.html"
+        },
         "gocatchall": {
             "matchCondition": {
                 "methods": [
