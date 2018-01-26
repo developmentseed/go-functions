@@ -12,7 +12,7 @@
         },
         "gopages": {
             "matchCondition": {
-                "route": "/{*path}",
+                "route": "/{*restOfPath}",
                 "methods": [
                     "GET"
                 ]
